@@ -4,7 +4,7 @@ pragma solidity ^0.4.20;
 // ----------------------------------------------------------------------------
 // RingDEX Token Burnable/Mintable token contract
 //
-// Symbol           : RNGD
+// Symbol           : RDEX
 // Name             : RingDEX Token
 // Total Supply     : 1,000,000
 // Decimals         : 8
@@ -82,7 +82,7 @@ contract RingDEXToken is ERC20Interface {
     // Constructor
     // ------------------------------------------------------------------------
     constructor() public {
-        symbol = "RNGD";
+        symbol = "RDEX";
         name = "RingDEX Token";
         decimals = 8;
         _totalSupply = 1000000 * 10**uint(decimals);
